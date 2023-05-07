@@ -1,0 +1,23 @@
+<div class="mt-3 ">
+    
+    
+    <h1 class="text-capitalize">nome: {{poke.name}}</h1>
+    <h1>ID: {{poke.id}}</h1>
+    <img [src]="poke.img" width="500px" class="shadow-lg rounded bg-primary">
+
+    
+    <h1>Altura: {{poke.height}}</h1> 
+    <h1>Peso: {{poke.weight}}</h1>
+   
+    
+    
+   
+    <button class="btn btn-danger" (click)="anteriorPoke()">
+        Anterior
+    </button>
+    <button class="btn btn-primary" (click)="proximoPoke()">
+        Próximo
+    </button>
+
+</div>
+
